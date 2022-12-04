@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "email": "admin@todolist.com",
+      "password": "$2a$12$rDk3FMwBwbUSODDi7Oz0XuGTw2B9yNDki6sYcjrgw31MNsH8T420K"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1670160632980",
+      "title": "first task",
+      "description": "work work work",
+      "isCompleted": false
+    },
+    {
+      "id": "1670160656454",
+      "title": "second task",
+      "description": "eat eat eat",
+      "isCompleted": true
+    },
+    {
+      "id": "1670160679771",
+      "title": "third task",
+      "description": "sleep sleep sleep",
+      "isCompleted": true
+    }
+  ]
+}

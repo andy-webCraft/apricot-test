@@ -1,0 +1,16 @@
+@import "../../styles/_variables"
+
+.wrapper
+    display: inline-flex
+    border-radius: 10px
+    border: 1px solid $light-gray-color
+    box-shadow: $light-shadow
+    overflow: hidden
+
+.item
+    border-right: 1px solid $light-gray-color
+    transition: $transition-2s
+    &:hover
+        background: #fff
+    &:last-child
+        border-right: none
